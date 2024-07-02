@@ -20,7 +20,7 @@ app.get('/load-images/:folder', async (req, res) => {
             return /\.(jpg|jpeg|png|gif)$/i.test(file);
         }).map(file => {
             return `images/${folder}/${file}`;
-        });
+        }); 
 
         res.json({ images });
     } catch (error) {
