@@ -91,6 +91,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
             });
+
+            // Sicherstellen, dass das fokussierte Bild in der Mitte ist, wenn es angeklickt wird
+            const focusedItemRect = galleryItems[focusedIndex].getBoundingClientRect();
+            const scrollLeft = gallery.scrollLeft + focusedItemRect.left - galleryRect.left - (gallery.offsetWidth - focusedItemRect.width) / 2;
+
+            gallery.scrollTo({
+                left: scrollLeft,
+                behavior: 'smooth'
+            });
         }
 
         galleryItems.forEach((item, index) => {

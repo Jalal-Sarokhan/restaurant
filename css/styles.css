@@ -35,21 +35,21 @@ main {
     overflow: hidden;
     width: 100%;
     position: relative;
-    height: 200px; /* Höhe der Galerie anpassen */
 }
 
 .gallery-item {
     max-width: 100px; /* Beispielgröße, je nach Bedarf anpassen */
     margin: 0 10px;
-    transition: transform 0.3s ease, filter 0.3s ease, max-width 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease;
     cursor: pointer;
     filter: blur(5px);
 }
 
 .gallery-item.focused {
-    transform: scale(1.5);
+    transform: scale(1.2);
     filter: blur(0);
-    max-width: 150px; /* Größe des fokussierten Bildes anpassen */
+    max-width: 250px;
+    max-height: 150px;
 }
 
 .menu-items {
