@@ -139,3 +139,6 @@ footer {
     max-width: 100%;
     height: auto;
 }
+.section-hidden {
+    display: none;
+}
