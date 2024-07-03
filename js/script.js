@@ -38,11 +38,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 "images/pizza_margherita/pizza_margherita_5.jpg"
             ],
             "spaghetti.html": [
-                "images/spaghetti/spaghetti_1.jpg",
-                "images/spaghetti/spaghetti_2.jpg",
-                "images/spaghetti/spaghetti_3.jpg",
-                "images/spaghetti/spaghetti_4.jpg",
-                "images/spaghetti/spaghetti_5.jpg"
+                "images/spaghetti_carbonara/spaghetti_carbonara_1.jpg",
+                "images/spaghetti_carbonara/spaghetti_carbonara_2.jpg",
+                "images/spaghetti_carbonara/spaghetti_carbonara_3.jpg",
+                "images/spaghetti_carbonara/spaghetti_carbonara_4.jpg",
+                "images/spaghetti_carbonara/spaghetti_carbonara_5.jpg"
+            ],
+            "about.html": [
+                "images/about/about_1.jpg",
+                "images/about/about_2.jpg",
+                "images/about/about_3.jpg",
+                "images/about/about_4.jpg",
+                "images/about/about_5.jpg"
             ],
             "tiramisu.html": [
                 "images/tiramisu/tiramisu_1.jpg",

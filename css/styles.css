@@ -10,7 +10,29 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    align-items: center;
 }
+   header  ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 5px;
+    display: flex; 
+    color: white;
+    
+}
+header li {
+    color: white;
+    padding: 0px;
+    margin: 5px;
+}
+
 
 button {
     background-color: #fff;
